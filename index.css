@@ -1,0 +1,246 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav{
+
+    width: 100%;
+    height: 100px;
+    color: rgb(233, 230, 230);
+    background: linear-gradient( #555454, #0D0D0D 80%);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+
+}
+
+.logo{
+
+      font-family: "League Gothic", sans-serif;
+      font-size: 50px;
+      margin-left: 80px;
+      letter-spacing: 2px;
+      cursor: pointer;
+
+}
+
+.navbar{
+
+    display: flex;
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
+    list-style: none;
+    gap: 30px;
+}
+
+.cont{
+
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-right: 80px;
+
+}
+
+.home{
+
+    cursor: pointer;
+
+}
+
+.about{
+
+    cursor: pointer;
+
+}
+
+.portfolio{
+
+    cursor: pointer;
+
+}
+
+.services{
+
+    cursor: pointer;
+
+}
+
+.maindiv{
+
+    width: 100%;
+    height: 1200px;
+    display: flex;
+
+}
+
+.parent{
+
+    width: 60%;
+    height: 1200px;
+    background: linear-gradient(to bottom left, #555454, #0D0D0D 70%);
+
+}
+
+.parent2{
+
+    width: 40%;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.76);
+    position: sticky;
+    top: 100px;
+    border-left: 0.2px white solid;
+    padding-top: 70px;
+
+}
+
+.img{
+
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.inner{
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.profile{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.name{
+
+    text-align: center;
+      font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    color: rgb(233, 230, 230);
+    margin-top: 20px;
+}
+
+.social{
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.icon{
+
+    font-size: 20px;
+    color: rgb(233, 230, 230);
+
+}
+
+.socio{
+
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.facebook{
+
+    cursor: pointer;
+}
+
+.twitter{
+
+    cursor: pointer;
+
+}
+
+.insta{
+
+    cursor: pointer;
+
+}
+
+.youtube{
+
+    cursor: pointer;
+
+}
+
+.newdiv{
+
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.cont2{
+
+    font-family: "League Gothic", sans-serif;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.aboutme{
+
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    padding-left: 90px;
+}
+
+.aboutiner{
+
+    width: 90%;
+    height: 300px;
+    background-color: rgb(233, 230, 230);
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.title{
+
+    font-family: "League Gothic", sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.detail{
+
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.iner2{
+
+height: 330px;
+}
